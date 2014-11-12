@@ -74,8 +74,8 @@ grunt.initConfig({
     options: {
       separator: ': ',
       punctuation: ' !!!',
-      //'The important different betweens grunt-contrib-levin-usemin and grunt-usemin,it was added a new function that' 
-      //'it responsibility is replace static file pre-fixer in server template'
+      //'The important different betweens grunt-contrib-levin-usemin and grunt-usemin,it was added a new'
+      //'function that it responsibility is replace static file pre-fixer in server template'
       filePrefixer:function(url){
           if(!url){
               return '';
