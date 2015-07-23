@@ -91,10 +91,13 @@ grunt.initConfig({
 });
 ```
 
-#### New BlockReplacement
+## New BlockReplacement
+```js
 //<!-- build:js_inline components.js -->
 //<!-- endbuild -->
-## example
+```
+#### example
+```js
 lazy.load([
     //<!-- build:js_inline assets/js/main.js -->
     "assets/js/app.js",
@@ -103,7 +106,7 @@ lazy.load([
     //<!-- endbuild -->
         
 ], loadComplete);
-
+```
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
